@@ -255,7 +255,7 @@ def evaluate_olivettifaces(learning_rate=0.05, n_epochs=200,
     )
 
 
-    layer3 = LogisticRegression(input=layer2.output, n_in=2000, n_out=40)   #n_in等于全连接层的输出，n_out等于40个类别
+    layer3 = LogisticRegression(input=layer2.output, n_in=2000, n_out=40)
 
 
 
